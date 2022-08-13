@@ -1,5 +1,5 @@
 package recursion;
-import java.util.*; // backtracking
+import java.util.*; // display from 1 to n linearly using backtracking
 
 public class BackT {
 	
