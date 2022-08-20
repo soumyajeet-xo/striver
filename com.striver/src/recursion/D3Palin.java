@@ -1,4 +1,4 @@
-package recursion; // check string palindrome or not using recursion *
+package recursion; // check string Palindrome or not using recursion *
 import java.util.*; //edge case not considered
 
 public class D3Palin {
