@@ -5,12 +5,12 @@ public class NToO {
 	
 	static int i=1;
 	
-	static void print(int i,int n) // i is getting the value of n #function anatomy
+	static void print(int i) // i is getting the value of n #function anatomy
 	{
 		if(i<1) //base condition as the sequence shall print number till 1 
 			return;
 		System.out.println(i);
-		print(i-1,n); // i-1 as it is decreasing sequence
+		print(i-1); // i-1 as it is decreasing sequence
 		
 	}
 
@@ -19,7 +19,7 @@ public class NToO {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter until how to be printed backward");
 		int n=sc.nextInt();
-		print(n,n); // as the first number to be printed will be the number itself
+		print(n); // as the first number to be printed will be the number itself
 		sc.close();
 
 	}
